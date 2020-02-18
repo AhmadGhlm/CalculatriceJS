@@ -90,3 +90,5 @@ class Calculator {
     }
   }
 }
+
+const numberButtons = document.querySelectorAll("[data-number]");
