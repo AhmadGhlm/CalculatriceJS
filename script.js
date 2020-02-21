@@ -102,3 +102,7 @@ const previousOperandTextElement = document.querySelector(
 const currentOperandTextElement = document.querySelector(
   "[data-current-operand]"
 );
+const calculator = new Calculator(
+  previousOperandTextElement,
+  currentOperandTextElement
+);
